@@ -1,4 +1,4 @@
-#  JiaEX - split vertically staggered keyboard for extended alphabets.
+#  JiaEX - split keyboard for extended alphabets.
 
 `assembled-keyboard.stl` - 3d model of assembled keyboard.
 
@@ -10,14 +10,14 @@
 
 ## Features
 
-- enough keys for placing on default layer all letters for extended alphabets (alphabets with more than 26 letters);
-- plenty of keys for playing with different variants to find your best setup;
-- one keyboard for all operating systems. Switch between settings for different operating systems with a shortcut (currently settings for Linux and Windows are implemented);
-- used AT90USB1286 with 128 KB memory. No limits for storing settings;
-- Wide choice of keycaps. The keyboard is designed for maximum use of keycap sets from standard keyboards. 1.75U modifiers keys can be replaced with 1.5U or 1.25U keys in any combination;
-- wrist pad is rigidly attached to the keyboard. The keyboard is not intended to be used without a wrist pad;
-- the display shows current default layout (for example Linux) and current active layer plus Caps Lock state;
-- powered by QMK.Layout
+- enough keys for placing on default layer all letters for extended alphabets (alphabets with more than 26 letters).
+- plenty of keys for playing with different variants to find your best setup.
+- one keyboard for all operating systems. Switch between settings for different operating systems with a shortcut (currently settings for Linux and Windows are implemented).
+- used AT90USB1286 with 128 KB memory. No limits for storing settings.
+- wide choice of keycaps. The keyboard is designed for maximum use of keycap sets from standard keyboards. 1.75U keys of thumb cluster and 1.5U vertical keys can be replaced with 1.5U or 1.25U keys in any combination.
+- wrist pad is rigidly attached to the keyboard. The keyboard is not intended to be used without a wrist pad.
+- the display shows current default layout (for example Linux) and current active layer plus Caps Lock state.
+- powered by QMK.
 
 ## Layout
 
@@ -31,7 +31,7 @@
 
 ### Folders
 
-- `case` - stl-files for 3d printing case and wrist pads. Case and wrist pads are designed by Alexander_St enginemojo@gmail.com.
+- `case` - stl-files for 3d printing case and wrist pads. <br/>Case and wrist pads are designed by Alexander_St enginemojo@gmail.com.
 - `datasheets` - datasheets for some used parts
 - `firmware` - source files for QMK firmware
 - `pcb` - KiCAD source and gerber files for manufacturing PCB.
@@ -50,7 +50,7 @@ Kicad libraries used:
 
 - https://github.com/XenGi/teensy_library
 
-### Bill of materials:
+### Bill of materials
 
 | Name                                          | Value                                                        | Quantity |
 | --------------------------------------------- | ------------------------------------------------------------ | -------: |
@@ -59,8 +59,8 @@ Kicad libraries used:
 | SMD Resistor 1206                             | 30K                                                          |        2 |
 | SMD Resistor 1206                             | 3K                                                           |        4 |
 | SMD Resistor 1206                             | 10K                                                          |        1 |
-| Jack RJ-22                                    | [[215875-1, Conn RJ-22 F 4 POS 1.02mm Solder RA Thru-Hole 4 Terminal 1 Port Cat 3 T/R](datasheets/Jack RJ-22.pdf) |        2 |
-| OLED display                                  | [0.91 inch OLED Module 128x32, I2C] (datasheets/0.91inch_OLED_Module_User_Manual_EN.pdf) |        1 |
+| Jack RJ-22                                    | [215875-1, Conn RJ-22 F 4 POS 1.02mm Solder RA Thru-Hole 4 Terminal 1 Port Cat 3 T/R](datasheets/Jack_RJ-22.pdf) |        2 |
+| OLED display                                  | [0.91 inch OLED Module 128x32, I2C](datasheets/OLED_Module_User_Manual_EN.pdf) |        1 |
 | Plug for OLED display                         | [PLS-4R (DS1022-1x4R)](datasheets/DS1022.pdf)                |        1 |
 | Key switch                                    | Any Cherry MX compatible                                     |       68 |
 | Key stabilyzers                               | Any Cherry MX compatible                                     |        6 |
