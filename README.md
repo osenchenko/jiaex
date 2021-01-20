@@ -10,7 +10,7 @@
 
 ## Features
 
-- enough keys for placing on default layer all letters for extended alphabets (alphabets with more than 26 letters).
+- enough keys for placing on base layer all letters for extended alphabets (alphabets with more than 26 letters).
 - plenty of keys for playing with different variants to find your best setup.
 - one keyboard for all operating systems. Switch between settings for different operating systems with a shortcut (currently settings for Linux and Windows are implemented).
 - used AT90USB1286 with 128 KB memory. No limits for storing settings.
@@ -52,30 +52,30 @@ Kicad libraries used:
 
 ### Bill of materials
 
-| Name                                          | Value                                                        | Quantity |
-| --------------------------------------------- | ------------------------------------------------------------ | -------: |
-| Microcontroller board                         | [Teensy ++ 2.0](https://www.pjrc.com/store/teensypp.html)    |        2 |
-| SMD Diode                                     | 1N4148 [SOD-123]                                             |       68 |
-| SMD Resistor 1206                             | 30K                                                          |        2 |
-| SMD Resistor 1206                             | 3K                                                           |        4 |
-| SMD Resistor 1206                             | 10K                                                          |        1 |
+| Name                                          | Value                                                                                                            | Quantity |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------: |
+| Microcontroller board                         | [Teensy ++ 2.0](https://www.pjrc.com/store/teensypp.html)                                                        |        2 |
+| SMD Diode                                     | 1N4148 [SOD-123]                                                                                                 |       68 |
+| SMD Resistor 1206                             | 30K                                                                                                              |        2 |
+| SMD Resistor 1206                             | 3K                                                                                                               |        4 |
+| SMD Resistor 1206                             | 10K                                                                                                              |        1 |
 | Jack RJ-22                                    | [215875-1, Conn RJ-22 F 4 POS 1.02mm Solder RA Thru-Hole 4 Terminal 1 Port Cat 3 T/R](datasheets/Jack_RJ-22.pdf) |        2 |
-| OLED display                                  | [0.91 inch OLED Module 128x32, I2C](datasheets/OLED_Module_User_Manual_EN.pdf) |        1 |
-| Plug for OLED display                         | [PLS-4R (DS1022-1x4R)](datasheets/DS1022.pdf)                |        1 |
-| Key switch                                    | Any Cherry MX compatible                                     |       68 |
-| Key stabilyzers                               | Any Cherry MX compatible                                     |        6 |
-| 4-wire phone cable with RJ11 (TP-4P4C) jacks. | Max length of cable - 11 cm.                                 |        1 |
-| Rubber feet                                   | At your own choice. I use [RF-3004](datasheets/DOC004505728.pdf) |      --- |
-| Metal plate. Thickness                        | 1.5 mm                                                       |        2 |
+| OLED display                                  | [0.91 inch OLED Module 128x32, I2C](datasheets/OLED_Module_User_Manual_EN.pdf)                                   |        1 |
+| Plug for OLED display                         | [PLS-4R (DS1022-1x4R)](datasheets/DS1022.pdf)                                                                    |        1 |
+| Key switch                                    | Any Cherry MX compatible                                                                                         |       68 |
+| Key stabilyzers                               | Any Cherry MX compatible, plate mount                                                                            |        6 |
+| 4-wire phone cable with RJ11 (TP-4P4C) jacks. | Max length of cable - 11 cm.                                                                                     |        1 |
+| Rubber feet                                   | At your own choice. I use [RF-3004](datasheets/DOC004505728.pdf)                                                 |      --- |
+| Metal plate. Thickness                        | 1.5 mm                                                                                                           |        2 |
 
 
 
 ### Screws
 
-| Name                                                         | Diameter | Length, mm | Image               | Quantity | Notes                                                   |
-| ------------------------------------------------------------ | -------: | ---------: | ------------------- | -------: | ------------------------------------------------------- |
-| Self-tapping screw for plastic, countersunk head, blunt end, Phillips head, full thread, ART 9090 |        3 |      8..10 | ![](img/image2.png) |       20 | Drill the hole with a 2 mm drill before insert screw.   |
-| Self-tapping screw DIN 7981 FH (A2) with a blunt end with a half-cylindrical head, slot Phillips ST2.2 |      2.2 |     6.5..8 | ![](img/image4.png) |        8 | Drill the hole with a 1.2 mm drill before insert screw. |
+| Name                                                                                                   | Diameter, mm | Length, mm | Image               | Quantity | Notes                                                   |
+| ------------------------------------------------------------------------------------------------------ | -----------: | ---------: | ------------------- | -------: | ------------------------------------------------------- |
+| Self-tapping screw for plastic, countersunk head, blunt end, Phillips head, full thread, ART 9090      |            3 |      8..10 | ![](img/image2.png) |       20 | Drill the hole with a 2 mm drill before insert screw.   |
+| Self-tapping screw DIN 7981 FH (A2) with a blunt end with a half-cylindrical head, head Phillips ST2.2 |          2.2 |     6.5..8 | ![](img/image4.png) |        8 | Drill the hole with a 1.2 mm drill before insert screw. |
 
 
 
